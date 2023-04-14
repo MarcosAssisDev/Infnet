@@ -1,0 +1,100 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: azure;
+    box-sizing: border-box;
+    
+}
+
+
+/*  --------------Header--------------- */
+#titulo {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 60px;
+    background-color: rgb(59, 37, 37);
+}
+
+figure {
+  position: relative;
+  top: -50px;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 280px;
+    height: 270px;    
+}
+
+figure img:hover  {
+  transform: scale(1.2);
+}
+
+
+
+/*  --------------Hero--------------- */
+
+
+#titulo h1, #titulo h2{
+    text-shadow: 2px;  
+    color: white;
+}
+#titulo h1 {
+    margin-top: -20px;
+}
+
+.box-info{ 
+   background-color: #f2f2f2;
+   border-radius: 25px; 
+   padding: 20px;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #333;
+  margin: 0% 20% 100px 20%;
+}
+.button-download{
+  background-color: #D55151;
+  border: none; 
+  border-radius:10px;
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+
+.button-download:hover{
+  background-color: #4CAF50; 
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+/*  --------------Foote--------------- */
+footer nav{  
+    width: auto;
+    padding: 30px;
+    background-color: rgb(59, 37, 37);
+}
+
+.link-footer{
+  display: inline-block;	
+  border-radius: 10px;
+  width: 50px; 
+}
